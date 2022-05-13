@@ -18,7 +18,7 @@ def detect_bpm(audio_filename: str) -> float:
 
 
 def plot_audio_and_tempo(audio_filename) -> None:
-  sampling_rate = 44200
+  sampling_rate = 44100
   audio = es.MonoLoader(filename=audio_filename, sampleRate=sampling_rate)()
   bpm = detect_bpm(audio_filename)
   time = np.array(range(len(audio))) / sampling_rate
