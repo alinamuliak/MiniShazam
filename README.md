@@ -1,7 +1,11 @@
 # MiniShazam
 
 ## About The Project
-Main idea...
+This is the semester project for LA course at UCU with signal processing as the general topic. MiniShazam(change later) is a simplified version of a query-by-humming (QBH) system. The developed framework takes in a piece of a hummed or whistled song as an input parameter for a search system and outputs the matching song in its full version.
+
+The user can hum a piece of tune into a microphone of his computer or laptop for arbitrary number of seconds (we recommend 8). The program will perform necessary evaluation and search a database of tunes to find a list of melodies that are most similar to the user’s “query”. Then he/she will be able to listen to this result to see if it is actually the tune that he/she had in mind. If the recording has drastically different tempo, the user will be asked to hum again, this time more accurately. 
+
+The database of tunes can be extended by manually adding new songs. If the user hums or whistles a piece that is not yet in the database, the system, apparently, will not be able to return the exact match. 
 
 ### Built With
 
@@ -18,17 +22,13 @@ Main idea...
     ```shell
     pip install essentia
     ```
-* mir_evar
+* mir_eval
     ```shell
     pip install mir_eval
     ```
-* libportaudio2
+* pydub
     ```shell
-    sudo apt-get install libportaudio2
-    ```
-* sounddevice
-    ```shell
-    pip install sounddevice
+    pip install pydub
     ```
 
 
