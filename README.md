@@ -46,10 +46,11 @@ The database of tunes can be extended by manually adding new songs. If the user 
 
 - [x] Implement pitch detection algorithm
 - [x] Implement real-time recording
-- [ ] Implement matching algorithm
-- [ ] Test the program
-  - [ ] Test on the bad quality input
-  - [ ] Test on the input that is absent in the database
+- [x] Implement matching algorithm
+- [x] Test the program
+  - [x] Test on the bad quality input
+  - [x] Test on the input that is absent in the database
+  - [x] Test on different music genres 
     
 
 ## Contributors
