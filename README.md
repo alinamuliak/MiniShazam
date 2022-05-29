@@ -38,7 +38,7 @@ The database of tunes can be extended by manually adding new songs. If the user 
 4. Record your input and test the program in the `Testing -> Real-time` section of the notebook!
 
 Record, process and match here:
-![screen-example](img/example.jpg)
+![screen-example](images/example.jpg)
 
 
 ## Roadmap
