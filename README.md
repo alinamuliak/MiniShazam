@@ -35,7 +35,7 @@ The database of tunes can be extended by manually adding new songs. If the user 
 1. Open Google Colab by clicking [here](https://colab.research.google.com/drive/1H4XjO4dirmbNFZoXEVPPbxxmYaVJY1UD?usp=sharing)
 2. Make a copy of this notebook
 3. Upload the desired songs, form a lists of path to them, form a database by using `create_database` function
-4. Record your input and test the program in the `Testing -> Real-time` section of the notebook!
+4. Record your input and test the program in the `Testing -> Real-time` section of the notebook! The JavaScript code for recording through Google Colab was taken from [this repository](https://github.com/GuitarsAI/AlgorithmsRepo/blob/master/microphone.ipynb).
 
 Record, process and match here:
 ![screen-example](images/example.jpg)
